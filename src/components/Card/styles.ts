@@ -5,6 +5,7 @@ export const Container = styled.div`
   margin-top: 8px;
   padding-bottom: 8px;
   border-bottom: 1px solid #dbdbdb;
+  cursor: pointer;
 
   img {
     border-radius: 10px;
@@ -14,7 +15,7 @@ export const Container = styled.div`
 export const Info = styled.div`
   display: flex;
   justify-content: space-between;
-  gap: 122px;
+  gap: 100px;
   margin-left: 8px;
 `
 
@@ -89,5 +90,12 @@ export const Confirm = styled.div`
     border-radius: 25px;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
+
+    > a {
+      text-decoration: none;
+      color: #fff;
+    }
   }
+  
 `

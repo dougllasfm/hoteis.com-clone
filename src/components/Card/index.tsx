@@ -28,7 +28,7 @@ function Card() {
         <Confirm>
           <span>A partir de</span>
           <h2>R$ 150,20</h2>
-          <button>Selecionar datas</button>
+          <a href="/hotel"><button>Reservar agora</button></a>
         </Confirm>
       </Info>
     </Container>

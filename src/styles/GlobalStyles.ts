@@ -18,7 +18,7 @@ export default createGlobalStyle`
   }
   *, button, input {
     border: 0;
-    font-family: 'Spartan', sans-serif;
+    font-family: system, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   }
   :root {
     --background: #ffffff;
@@ -32,6 +32,6 @@ export default createGlobalStyle`
     --blue-2: #125ca5;
     --blue-3: #156bc1;
     --blue-4: #5ca8f5;
-    --gray: #666666;
+    --gray: #6e6e6e;
   }
 `;

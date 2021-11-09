@@ -9,10 +9,12 @@ export const Container = styled.div`
 export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 18px 90px;
+  margin: 18px 115px;
 
   > h1 {
     color: var(--red);
+    font-weight: 500;
+    font-size: 18px;
   }
 `
 
