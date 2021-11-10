@@ -21,6 +21,11 @@ export const Container = styled.div`
     padding: 14px 10px;
     border: 1px solid #808080;
     border-radius: 5px;
+    outline: none;
+
+    &:focus {
+      outline: 1px solid var(--blue-3);
+    }
   }
 
   .input-checkbox {
@@ -31,7 +36,9 @@ export const Container = styled.div`
     }
 
     > label {
+      font-size: 14px;
       margin: 8px 0;
+      font-weight: 400;
       > input {
         margin-right: 12px;
       }

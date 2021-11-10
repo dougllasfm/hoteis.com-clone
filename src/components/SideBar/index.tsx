@@ -1,6 +1,8 @@
+
 import { Container } from './styles';
 
 function SideBar() {
+
   return (
     <Container>
       <section>

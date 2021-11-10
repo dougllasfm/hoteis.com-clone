@@ -11,11 +11,15 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   margin: 18px 115px;
 
-  > h1 {
+  a {
+    text-decoration: none;
+    > h1 {
     color: var(--red);
     font-weight: 500;
     font-size: 18px;
   }
+  }
+  
 `
 
 export const NavBar = styled.ul`

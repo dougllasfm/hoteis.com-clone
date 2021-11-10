@@ -1,6 +1,7 @@
 import HeaderBookHotel from '../components/HeaderBookHotel'
 import MainBookHotel from '../components/MainBookHotel'
 import Highlights from '../components/Highlights';
+import OptionsReservation from '../components/OptionsReservation'
 
 function Layout() {
   return (
@@ -8,6 +9,7 @@ function Layout() {
       <HeaderBookHotel />
       <MainBookHotel />
       <Highlights />
+      <OptionsReservation />
     </>
   );
 };

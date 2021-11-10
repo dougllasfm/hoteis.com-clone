@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Span from '../Span'
 
 export const Container = styled.div`
   display: flex;
@@ -15,7 +16,7 @@ export const Container = styled.div`
 export const Info = styled.div`
   display: flex;
   justify-content: space-between;
-  gap: 100px;
+  gap: 90px;
   margin-left: 8px;
 `
 
@@ -52,12 +53,6 @@ export const Details = styled.div`
   }
 
   .avaliation {
-    .note {
-      background: var(--green-2);
-      color: #fff;
-      margin-right: 3px;
-      padding: 2px 3px;
-    }
     span {
       font-size: 14px;
       font-weight: bold;
@@ -96,6 +91,12 @@ export const Confirm = styled.div`
       text-decoration: none;
       color: #fff;
     }
-  }
-  
+  }  
+`
+
+export const EditSpan = styled(Span)`
+  color: #fff;
+  margin-right: 3px;
+  padding: 2px 3px;
+  border-top-right-radius: 10px;
 `

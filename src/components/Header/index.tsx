@@ -4,7 +4,7 @@ function Header() {
   return (
     <Container>
       <Wrapper>
-        <h1>Hoteis.com</h1>
+        <a href="/"><h1>Hoteis.com</h1></a>
         <NavBar>
           <li>Suas Reservas</li>
           <li>Login</li>
