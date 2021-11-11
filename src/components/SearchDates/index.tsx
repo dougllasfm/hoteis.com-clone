@@ -10,7 +10,6 @@ function SearchDates() {
         <input className="reserve" type="text" />
         <button>Buscar</button>
       </fieldset>
-
     </Container>
   );
 };

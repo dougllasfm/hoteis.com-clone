@@ -9,13 +9,13 @@ function Highlights() {
           <h2>Principais comodidades</h2>
           <ul>
             <li>
-              200 quartos para não fumantes
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </li>
             <li>
-              200 quartos para não fumantes
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </li>
             <li>
-              200 quartos para não fumantes
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </li>
           </ul>
         </div>
@@ -23,13 +23,13 @@ function Highlights() {
           <h2>Sinta-se em casa</h2>
           <ul>
             <li>
-              200 quartos para não fumantes
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </li>
             <li>
-              200 quartos para não fumantes
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </li>
             <li>
-              200 quartos para não fumantes
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </li>
           </ul>
         </div>
@@ -37,13 +37,13 @@ function Highlights() {
           <h2>Atividades nos arredores</h2>
           <ul>
             <li>
-              200 quartos para não fumantes
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </li>
             <li>
-              200 quartos para não fumantes
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </li>
             <li>
-              200 quartos para não fumantes
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </li>
           </ul>
         </div>

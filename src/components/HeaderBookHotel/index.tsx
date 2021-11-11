@@ -5,11 +5,11 @@ function HeaderBookHotel() {
     <Container>
       <Title>
         <div>
-          <h1>Bourbon Atibaia Resort</h1>
+          <h1>Nome do hotel</h1>
           <span>4 estrelas</span>
         </div>
 
-        <p>Resort 4 estrelas com 3 piscinas externas e com boas opções de transporte para o centro de convenções em Atibaia</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
       </Title>
 
       <Confirm>

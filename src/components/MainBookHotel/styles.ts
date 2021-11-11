@@ -2,7 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  margin: 24px 115px;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  margin: 24px auto;
 `;
 
 export const Slides = styled.div`

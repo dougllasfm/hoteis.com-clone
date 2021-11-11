@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 8px 115px;
+  margin: 8px auto;
+  width: 80%;
 `;
 
 export const Title = styled.div`

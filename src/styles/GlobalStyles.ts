@@ -11,7 +11,9 @@ export default createGlobalStyle`
   }
   body {
     max-height: 100vh;
-    max-width: 1440px;
+    max-width: 100vw;
+    width: 100%;
+    height: 100%;
   }
   h1, h2, h3, h4, h5, h6 {
     font-size: 16px;

@@ -1,10 +1,11 @@
+import imgApartament from '../../assets/quarto.jpg'
 import { Container, Sidebar, Main } from './styles';
 
 function OptionsReservation() {
   return (
     <Container>
       <Sidebar>
-        <img src="https://s3.amazonaws.com/wordpress-cdn.eadbox.com/2017/09/25192620/musicas_sem_direitos_autorais-01.jpg" alt="" width="200" height="130" />
+        <img src={imgApartament} alt="Foto do quarto" width="200" height="130" />
         <h2>Apartamento com 2 quartos</h2>
         <span>Acomoda 2 pessoas</span>
         <span>1 cama de casal</span>

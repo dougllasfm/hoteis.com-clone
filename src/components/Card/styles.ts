@@ -5,19 +5,36 @@ export const Container = styled.div`
   display: flex;
   margin-top: 8px;
   padding-bottom: 8px;
+
   border-bottom: 1px solid #dbdbdb;
   cursor: pointer;
 
   img {
     border-radius: 10px;
+    width: 280px;
+    height: 180px;
   }
 `;
 
 export const Info = styled.div`
   display: flex;
   justify-content: space-between;
-  gap: 90px;
   margin-left: 8px;
+
+  @media (max-width: 991px) {
+    gap: 160px;
+  }
+
+  @media (max-width: 700px) {
+    gap: 60px;
+  }
+
+  @media (max-width: 530px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
 `
 
 export const Details = styled.div`
@@ -92,6 +109,8 @@ export const Confirm = styled.div`
       color: #fff;
     }
   }  
+
+  
 `
 
 export const EditSpan = styled(Span)`

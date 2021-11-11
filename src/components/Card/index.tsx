@@ -1,5 +1,7 @@
-import React from 'react';
+import { useNavigate } from 'react-router-dom'
+import imgPrincipal from '../../assets/principal.jpg'
 import { Container, Info, Details, Confirm, EditSpan } from './styles';
+
 
 type CardProps = {
   name: string,
@@ -10,6 +12,11 @@ type CardProps = {
 
 
 function Card({name, address, note, price}:CardProps) {
+  const navigate = useNavigate()
+
+  function Redirect() {
+    navigate('/hotel')
+  }
 
   function Avaliation() {
     var span = "Sem avaliação"
@@ -26,8 +33,8 @@ function Card({name, address, note, price}:CardProps) {
   }
 
   return (
-    <Container>
-      <img src="https://www.hplus.com.br/wp-content/uploads/2020/05/hotel-em-bras%C3%ADlia-centro-oeste.jpg" alt="" width="280" height="180" />
+    <Container onClick={Redirect}>
+      <img src={imgPrincipal} alt="Imagem principal do hotel" />
       <Info>
         <Details>
           <section className="title-hotel">
@@ -36,7 +43,7 @@ function Card({name, address, note, price}:CardProps) {
           </section>
           
           <section className="details-address">
-            <p>São Paulo</p>
+            <p>Cidade</p>
             <ul>
               <li>Centro da cidade</li>
               <li>Próximo a tal lugar</li>

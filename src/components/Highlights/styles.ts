@@ -1,7 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin: 18px 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  margin: 18px auto;
+  
   border-top: 1px solid #dbdbdb;
   padding-bottom: 20px;
   h1 {

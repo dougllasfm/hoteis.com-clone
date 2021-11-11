@@ -1,22 +1,25 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+
   border-bottom: 1px solid #dbdbdb;
   padding: 10px 0;
-
+  
   fieldset {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 115px;
+    width: 1024px;
 
     .name {
-      width: 420px;
+      width: 40%;
     }
 
     .reserve {
-      width: 240px;
+      width: 40%;
     }
 
     input {
@@ -25,6 +28,7 @@ export const Container = styled.div`
       border: 1px solid #dbdbdb;
       border-radius: 3px;
       outline: none;
+      width: 20%;
 
       &:focus {
         outline: 2px solid var(--blue-3);
@@ -46,5 +50,18 @@ export const Container = styled.div`
     }
   }
   
-  
+  @media (max-width: 990px) {
+    width: 100%;
+    margin: 10px 20px;
+  }
+
+  @media (max-width: 1024px) {
+    width: 90%;
+    margin: 10px 50px;
+  }
+
+  @media (max-width: 800px) {
+    width: 88%;
+    margin: 10px 50px;
+  }
 `;

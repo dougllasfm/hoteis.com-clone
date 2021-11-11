@@ -2,15 +2,16 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  margin: 18px 115px;
+  justify-content: center;
+  width: 100%;
+  margin: 14px auto;
 
-  padding-bottom: 100px;
+  padding-bottom: 80px;
 `;
 
 export const Sidebar = styled.div`
   display: flex;
   flex-direction: column;
-
   width: 200px;
   margin-right: 15px;
 
@@ -30,6 +31,7 @@ export const Sidebar = styled.div`
 export const Main = styled.div`
   display: flex;
   flex-direction: column;
+  width: 65%;
 
   section:nth-child(1) {
     color: var(--black);
@@ -47,7 +49,6 @@ export const Main = styled.div`
   section {
     display: flex;;
     justify-content: space-between;
-    min-width: 903px;
     padding: 12px 8px;
 
     div {

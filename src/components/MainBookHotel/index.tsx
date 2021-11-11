@@ -1,15 +1,18 @@
 import { Container, Slides, Sidebar } from './styles';
+import imgPrincipal from '../../assets/principal.jpg'
+import img1 from '../../assets/imagem1.jpg'
+import img2 from '../../assets/imagem2.jpg'
+import img3 from '../../assets/imagem3.jpg'
 
 function MainBookHotel() {
   return (
     <Container>
       <Slides>
-        <img src="https://www.hplus.com.br/wp-content/uploads/2020/05/hotel-em-bras%C3%ADlia-centro-oeste.jpg" alt="" width="760" height="420" />
-
+        <img src={imgPrincipal} alt="Imagem principal do hotel" width="760" height="420" />
         <div className="others-images">
-          <img src="https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg" alt="" width="249" height="180" />
-          <img src="https://www.gandinihotel.com.br/images/gandini-hotel-slide-01.jpg" alt="" width="249" height="180" />
-          <img src="https://panamby.com.br/wp-content/uploads/2020/10/homeslider-1500-l.jpg" alt="" width="249" height="180" />
+          <img src={img1} alt="imagem1" width="249" height="180" />
+          <img src={img2} alt="imagem2" width="249" height="180" />
+          <img src={img3} alt="imagem3" width="249" height="180" />
         </div>
 
       </Slides>
@@ -30,7 +33,7 @@ function MainBookHotel() {
           <p>22 out 2021</p>
         </div>
         <div className="comments">
-          <span>Muito bom</span>
+          <span>Muito bom o atendimento no hotel</span>
           <p>22 out 2021</p>
         </div>
       </Sidebar>

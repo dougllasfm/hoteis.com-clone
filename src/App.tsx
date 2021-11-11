@@ -5,7 +5,6 @@ import SearchDates from './components/SearchDates'
 import Search from './pages/Search'
 import BookHotel from './pages/BookHotel'
 
-
 import GlobalStyles from './styles/GlobalStyles'
 
 function App() {

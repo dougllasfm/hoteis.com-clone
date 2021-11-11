@@ -3,10 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  width: 300px;
-  
+
   section + section {
-    width: 280px;
     margin-top: 15px;
     border-top: 1px solid #dbdbdb;
 
@@ -18,6 +16,7 @@ export const Container = styled.div`
   .search {
     margin-top: 8px;
     width: 280px;
+    max-width: 280px;
     padding: 14px 10px;
     border: 1px solid #808080;
     border-radius: 5px;
@@ -64,5 +63,9 @@ export const Container = styled.div`
         }
       }
     }
+  }
+
+  @media (max-width: 990px) {
+    display: none;
   }
 `;
