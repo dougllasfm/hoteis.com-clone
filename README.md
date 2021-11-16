@@ -21,7 +21,7 @@ Clone da interface da página de busca e também de um hotel específico .
 https://github.com/dougllasfm/hoteis.com-clone.git
 
 # Instalando dependencias
-$ cd hoteis.com
+$ cd hoteis.com-clone
 $ npm install
 
 # Executa o projeto
