@@ -1,12 +1,16 @@
 import Feed from '../Feed'
 import SideBar from '../SideBar'
+
 import { Container } from './styles';
 
 function Main() {
   return (
     <Container>
-      <SideBar />
-      <Feed />
+      <section className="feed">
+        <SideBar />
+        <Feed />
+      </section>
+
     </Container>
   );
 };

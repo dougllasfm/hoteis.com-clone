@@ -9,11 +9,16 @@ export default createGlobalStyle`
   html {
     min-height: 100%;    
   }
-  body {
+  body {    
     max-height: 100vh;
     max-width: 100vw;
     width: 100%;
     height: 100%;
+
+    @media (max-width: 400px) {
+      display: flex;
+      justify-content: center;
+    }
   }
   h1, h2, h3, h4, h5, h6 {
     font-size: 16px;

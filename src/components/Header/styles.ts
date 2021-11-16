@@ -31,6 +31,18 @@ export const Wrapper = styled.nav`
   @media (max-width: 950px) {
     padding-left: 45px;
   }
+
+  @media (max-width: 595px) {
+    padding: 16px 10px;
+  }
+
+  @media (max-width: 400px) {
+    margin: 0 80px;
+  }
+
+  @media (max-width: 360px) {
+    margin: 0 160px;
+  }
 `
 
 export const NavBar = styled.ul`

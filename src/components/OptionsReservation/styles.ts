@@ -3,10 +3,24 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   justify-content: center;
-  width: 100%;
   margin: 14px auto;
-
+  padding: 16px 48px;
+  
   padding-bottom: 80px;
+
+  @media (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  @media (max-width: 400px) {
+    margin: 0 40px;
+  }
+
+  @media (max-width: 360px) {
+    margin: 0 100px;
+  }
 `;
 
 export const Sidebar = styled.div`
@@ -102,5 +116,12 @@ export const Main = styled.div`
       }
     }
   }
+
+  @media (max-width: 600px) {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+
 
 `

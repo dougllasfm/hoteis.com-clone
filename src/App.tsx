@@ -1,7 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import Header from './components/Header'
-import SearchDates from './components/SearchDates'
 import Search from './pages/Search'
 import BookHotel from './pages/BookHotel'
 
@@ -12,7 +11,6 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
-        <SearchDates />
         <Routes>
           <Route path="/" element={<Search />} />
           <Route path="/hotel" element={<BookHotel />} />

@@ -2,25 +2,74 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  width: 80%;
-  margin: 24px auto;
+  max-width: 1140px;
+  padding: 16px 54px;
+  margin: 5px auto;
+
+  @media (max-width: 1010px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  @media (max-width: 400px) {
+    margin: 0 40px;
+  }
+
+  @media (max-width: 360px) {
+    margin: 0 100px;
+  }
+
 `;
 
 export const Slides = styled.div`
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  width: 760px;
 
   img {
+    width: 55vw;
+    height: 420px;
     border-radius: 4px;
   }
 
   .others-images {
     margin-top: 6px;
+    > img {
+      width: 18vw;
+      height: 180px;
+    }
+
     > img + img {
       margin-left: 6px;
+    }
+  }
+
+  @media (max-width: 1010px) {
+    img {
+      width: 89vw;
+    }
+
+    .others-images {
+      margin: 6px 0;
+      > img {
+        width: 29.3vw;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    img {
+      width: 85vw;
+    }
+
+    .others-images {
+      margin: 6px 0;
+      > img {
+        width: 27.3vw;
+      }
     }
   }
 `

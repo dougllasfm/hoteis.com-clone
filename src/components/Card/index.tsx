@@ -33,7 +33,8 @@ function Card({name, address, note, price}:CardProps) {
   }
 
   return (
-    <Container onClick={Redirect}>
+
+    <Container onClick={Redirect}>  
       <img src={imgPrincipal} alt="Imagem principal do hotel" />
       <Info>
         <Details>

@@ -8,11 +8,11 @@ function MainBookHotel() {
   return (
     <Container>
       <Slides>
-        <img src={imgPrincipal} alt="Imagem principal do hotel" width="760" height="420" />
+        <img src={imgPrincipal} alt="Imagem principal do hotel" />
         <div className="others-images">
-          <img src={img1} alt="imagem1" width="249" height="180" />
-          <img src={img2} alt="imagem2" width="249" height="180" />
-          <img src={img3} alt="imagem3" width="249" height="180" />
+          <img src={img1} alt="imagem1" />
+          <img src={img2} alt="imagem2" />
+          <img src={img3} alt="imagem3" />
         </div>
 
       </Slides>

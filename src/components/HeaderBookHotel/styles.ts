@@ -3,8 +3,24 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   justify-content: space-between;
-  margin: 8px auto;
-  width: 80%;
+  max-width: 1140px;
+  padding: 16px 54px;
+  margin: 0 auto;
+
+  @media (max-width: 535px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  @media (max-width: 400px) {
+    margin: 0 40px;
+  }
+
+  @media (max-width: 360px) {
+    margin: 0 100px;
+  }
 `;
 
 export const Title = styled.div`
@@ -63,5 +79,12 @@ export const Confirm = styled.div`
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
+  }
+
+  @media (max-width: 535px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 `

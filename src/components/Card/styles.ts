@@ -14,6 +14,22 @@ export const Container = styled.div`
     width: 280px;
     height: 180px;
   }
+
+  @media (max-width: 530px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      margin-bottom: 4px;
+      height: 200px;
+    }
+  }
+
+  
+
+  
 `;
 
 export const Info = styled.div`
@@ -25,16 +41,23 @@ export const Info = styled.div`
     gap: 160px;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 750px) {
     gap: 60px;
+  }
+
+  @media (max-width: 648px) {
+    gap: 5px;
   }
 
   @media (max-width: 530px) {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
   }
+
+  @media (max-width: 400px) {
+    display: block;
+  }
+
 `
 
 export const Details = styled.div`
@@ -109,8 +132,13 @@ export const Confirm = styled.div`
       color: #fff;
     }
   }  
-
   
+  @media (max-width: 400px) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
 `
 
 export const EditSpan = styled(Span)`
