@@ -6,9 +6,8 @@
 Clone da interface da página de busca e também de um hotel específico .
 
 ## Layout 
-![Tela de busca](https://github.com/dougllasfm/hoteis.com-clone/blob/main/src/assets/search.png)
-![Tela do hotel1](https://github.com/dougllasfm/hoteis.com-clone/blob/main/src/assets/product1.png)
-![Tela do hotel2](https://github.com/dougllasfm/hoteis.com-clone/blob/main/src/assets/product2.png)
+![Tela de busca](https://github.com/dougllasfm/hoteis.com-clone/blob/main/src/assets/tela-principal.png)
+![Tela do hotel1](https://github.com/dougllasfm/hoteis.com-clone/blob/main/src/assets/tela-detalhes.png)
 
 # Tecnologias utilizadas
 - ReactJS
